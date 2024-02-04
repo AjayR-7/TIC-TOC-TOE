@@ -1,4 +1,7 @@
 Tic Tac Toe Game:
+
+https://images.app.goo.gl/M8vdofYRLhb1Nyoh9
+
 This repository contains the code for a browser-based Tic Tac Toe game implemented using HTML, CSS, and JavaScript.
 
 Implementation:
@@ -14,7 +17,9 @@ How the Game Works:
   - Players can refresh the game board at any time to start a new game.
 
 Win Conditions:
+
 ![360_F_425540496_7gebvyFAgSVFl4inFZtU7XKRRXH7dVfa](https://github.com/AjayR-7/TIC-TOC-TOE/assets/140146943/b3ccac77-23c1-4f60-afe1-ffe3b8017a96)
+
 The game checks for win conditions by comparing the symbols in each winning combination. If all symbols in a winning combination match and are not empty, the player who owns those symbols wins the game.
 
 Functions:
