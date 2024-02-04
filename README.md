@@ -1,6 +1,6 @@
 Tic Tac Toe Game:
 
-https://images.app.goo.gl/M8vdofYRLhb1Nyoh9
+![istockphoto-937025192-612x612](https://github.com/AjayR-7/TIC-TOC-TOE/assets/140146943/55f21897-fa37-4895-a867-5aeb38716c79)
 
 This repository contains the code for a browser-based Tic Tac Toe game implemented using HTML, CSS, and JavaScript.
 
