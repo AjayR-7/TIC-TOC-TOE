@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    
+}
+.top{
+    font-family: 'Caveat', cursive;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    height:40px;
+    font-size: 35px;
+    
+}
+/* .name{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    height: 17px;
+    align-items: flex-end;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+} */
+nav{
+    background-color: rgb(21, 12, 14);
+    color: aliceblue;
+    height: 55px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    font-family: 'Honk', system-ui;
+}
+nav ul{
+    list-style: none;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+    margin: 17px;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: 'Protest Revolution', sans-serif;
+    position:relative;
+}
+.box{
+    border: 2px solid black;
+    font-size: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bt{
+    margin:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    align-items: end;
+}
+.gameinfo{
+    margin: 3px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+
+}
+.line{
+    background-color: black;
+    width:30vw;
+    height:3px;
+    position: absolute;
+    background-color:rgb(125, 118, 118);
+    transition: width 1s ease-in-out;
+}
+
+#Refresh{
+    margin: 0 20px;
+    padding: 1px 10px;
+    background-color: rgb(8, 8, 7);
+    color: bisque;
+    cursor: pointer;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 1.25vw;
+    border-radius: 15%;    
+
+}
+
+/*animation slide*/
+
+.slide {
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent line breaks */
+    animation: slideAnimation 15s linear infinite; /* Animation properties */
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(-100%); /* Start from right */
+    }
+    100% {
+        transform: translateX(100%); /* End at left */
+    }
+}
+
+
+
+/* animation name*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.ctr {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    overflow: hidden;
+}
+
+.name {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.name li {
+    animation: moveRight 3s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
